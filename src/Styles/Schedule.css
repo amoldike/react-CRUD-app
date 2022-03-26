@@ -1,0 +1,31 @@
+body {
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.scheddule_list {
+  width: 43rem;
+  margin: 0.5rem auto;
+  height: auto;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2px;
+}
+.add_icon {
+  color: #161616;
+  font-weight: 500;
+  margin-top: 0.6rem;
+  margin-right: 34.7rem;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background: none;
+  padding: 0.3rem;
+}
+:hover.add_icon {
+  border: 1px solid rgba(255, 255, 255, 0.363);
+}

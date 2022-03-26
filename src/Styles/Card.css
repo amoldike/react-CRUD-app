@@ -1,0 +1,52 @@
+.card_style {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 40rem;
+  border-radius: 5px;
+  background-color: #061d53;
+  padding: 0.5rem;
+}
+
+.category {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(253, 235, 113, 1) 0%,
+    rgba(248, 216, 0, 1) 90%
+  );
+  border-radius: 2px;
+  width: fit-content;
+  font-weight: 300;
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: center;
+  padding: 0.3rem;
+}
+.discription {
+  font-size: 1.2rem;
+  color: rgb(95, 190, 228);
+  padding: 0.5rem;
+  font-weight: 100;
+}
+.card_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.edit_delete_btn {
+  display: flex;
+  color: #ffffff;
+}
+.edit_btn {
+  font-size: 1.6rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  padding: 0.1rem;
+}
+.delete_btn {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  padding: 0.1rem;
+}
